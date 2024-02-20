@@ -1,0 +1,134 @@
+.heading{
+    background-color: antiquewhite;
+    border-radius: 20px;
+     height: 25px;
+     text-align: center;
+     width: 200px;
+     padding: 5px;
+     
+     font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    top:0px;
+    background-color: rgb(142, 146, 146);
+ padding: 7px;
+ border-radius: 10px;
+
+ display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+ 
+}
+a{
+    text-decoration: none;
+
+}
+a:hover{
+    background-color: black;
+    color: white;
+    border-radius:7px ;
+    opacity: 0.7;
+}
+#head{
+    background-color: rgb(15, 2, 2);
+    width: 0.75%;
+    height: 0.75%;
+    border-radius: 50%;
+    float: left;
+    color: rgba(0, 0, 0, 0.221);
+    margin-right: 2px;
+}
+.header-1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(123, 132, 132);
+        height: 400px;
+        border-radius: 10px;
+}
+
+.flex{
+    background-color: antiquewhite;
+    width: 300px;
+    margin-left: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+}
+img{
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.p{
+    margin-left: 20px;
+    width: 800px;
+    height: 4cm;
+    font-family: monospace;
+}
+h1{
+    text-align: center;
+    margin-top: 0px;
+}
+.section1{
+    background-color:   rgb(142, 146, 146);
+    border-radius: 5px;
+}
+.contact1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  rgb(142, 146, 146);;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.contact{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+footer{
+    background-color:  rgba(205, 213, 213, 0.863);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    padding: 10px;
+    margin-top: 0px;
+    text-align: center;
+}
+button:hover{
+    background-color: rgba(189, 227, 230, 0.984);
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+border-radius: 10%;
+}
+button{
+    padding: 10px;
+}
+.con{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    padding: 10px;
+    padding-top: 1px;   
+ 
+}
+.project{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+#im{
+    border-radius: 0px;
+}
